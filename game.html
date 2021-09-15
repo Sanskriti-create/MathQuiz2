@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="game.js"></script>
+</head>
+
+<body>
+    <img src="Math Quzziz.png" style="height: 20%; width: 15%; text-align: right;">
+    
+    <br>
+
+    <h3 id="player1NAME"></h3><span id="player1_score"></span>
+    <br>
+    <h3 id="player2NAME"></h3><span id="player2_score"></span>
+
+    <div class="container">
+
+        <center>
+
+                 <h1 style="color: rgb(6, 38, 66);">Math Quiz</h1>
+
+                <h3 id="player_ques"></h3>
+                <h3 id="player_ans"></h3>
+                
+                <div id="output" class="col-lg-6"></div>
+
+              <label style="font-size: medium;">
+                  Send Numbers with the sign . EX- 2*4 or 7+3 .
+                  
+              </label>
+              <br>
+              <input id="word_input" class="form-control" placeholder="Question">
+              <br>
+                <button id="send_btn" class="btn btn-success" onclick="send()" style="width: 30%;">SEND</button>
+
+        </center>
+
+    </div>
+
+</body>
+</html>
